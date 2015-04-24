@@ -1,4 +1,4 @@
-FROM tifayuki/java:7
+FROM lab-registry:5000/docker-java-8:utopic
 
 ENTRYPOINT ["gvm-exec.sh"]
 
